@@ -662,7 +662,7 @@ p, ul, li {
 
 
   .slide-4 {
-    background-image: url("img/4.jpg") !important;
+    background-image: url("img/4.jpg") !important; /* atau ganti ke asa/... */
     background-size: cover !important;
     background-position: center !important;
     background-repeat: no-repeat !important;
