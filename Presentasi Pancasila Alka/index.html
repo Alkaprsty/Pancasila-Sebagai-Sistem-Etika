@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Presentation</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@600;700&family=Rubik+Mono+One&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <div class="bg-blur" id="bgBlur"></div>
+
+  <div class="presentation-container">
+    <div class="slide title-slide slide-1 active">
+      <h1>PANCASILA SEBAGAI SISTEM ETIKA</h1>
+            <p style="font-size: 1.5rem; margin-top: 0rem; margin-bottom: 0rem;">(DOSEN DESSY SETIAWATI)</p>
+            <img src="img/unpam.png" alt="Logo" class="slide-image">
+      <p>DISUSUN OLEH KELOMPOK 2 : <br>
+1. ALKA PRASETYA / 251012602963 <br>
+2. BUNGA RIZKA ILVIA / 251012603003 <br>
+3. NOVALDO / 251012601881 <br>
+4. RIZKIA KURNIAWAN PUTRA / 251012603051
+</p>
+
+    </div>
+
+    <div class="slide slide-2">
+      <h2>PENDAHULUAN</h2>
+      <p>Pancasila merupakan dasar negara sekaligus pandangan hidup bangsa Indonesia.</p>
+    </div>
+
+    <div class="slide slide-3">
+      <h2>Rumusan <br> 
+        Masalah</h2>
+      <ul>
+        <li>Apa yang dimaksud dengan Pancasila sebagai sistem etika?</li>
+        <li>Bagaimana nilai-nilai Pancasila termanifestasi sebagai norma etika?</li>
+        <li>Apa relevansi Pancasila sebagai sistem etika di era modern?</li>
+      </ul>
+    </div>
+
+    <div class="slide slide-4">
+  <h2>Pengertian Sistem Etika & <br> Hakikat Pancasila</h2>
+  <p>
+    <span class="left-text">Sistem Etika berarti kumpulan nilai moral yang tersusun secara logis, sistematis, dan saling berkaitan.</span>
+    <br>
+    <span class="right-text">Etika tidak hanya memberi penilaian, tetapi juga menjadi pedoman praktis bagi perilaku manusia.</span>
+  </p>
+</div>
+
+
+    <div class="slide slide-5">
+      <h2>Pancasila sebagai Landasan Etis</h2>
+      <p>Pancasila tidak hanya dasar negara, tetapi juga landasan etika bangsa. Tiap sila memuat nilai moral yang universal.</p>
+    </div>
+
+    <div class="slide slide-6">
+      <h2>Nilai <br>
+        Norma <br>
+        Moral</h2>
+      <p>Merupakan tiga lapisan dari Pancasila.
+      </p>
+    </div>
+
+    <div class="slide slide-7">
+      <h2>Pancasila dan Etika Individu</h2>
+      <p>Pancasila adalah pedoman dalam mengambil keputusan moral sehari-hari.
+</p>
+    </div>
+
+    <div class="slide slide-8">
+      <h2>Pancasila dan Etika Sosial</h2>
+      <p>Contoh: <br>
+        tradisi kerja bakti di desa, musyawarah warga, atau gerakan bantuan sosial saat bencana alam semua mencerminkan etika sosial Pancasila.</p>
+    </div>
+
+    <div class="slide slide-9">
+      <h2>Pancasila dalam Etika Politik & Pemerintahan</h2>
+      <p>Etika politik berhubungan dengan kekuasaan, pemerintahan, dan kebijakan. Pancasila menjadi kontrol moral agar politik tidak menyimpang.</p>
+    </div>
+
+    <div class="slide slide-10">
+      <h2>Relevansi Pancasila di Era Modern</h2>
+      <ul>
+        <li>Radikalisme & intoleransi</li>
+        <li>Demokrasi liberal vs demokrasi Pancasila</li>
+        <li>Ekonomi kapitalistik</li>
+        <li>Media sosial</li>
+        <li>Korupsi & integritas</li>
+      </ul>
+    </div>
+
+   <div class="slide slide-11">
+  <h2>
+    <span class="judul-kiri">Tantangan</span>
+    <span class="judul-kanan">Implementasi</span>
+  </h2>
+  <p>
+    Meski ideal, penerapan Pancasila menghadapi hambatan nyata. <br>
+    Munculnya krisis moral, rendahnya integritas publik, hingga ketidakadilan sosial.
+  </p>
+</div>
+
+
+    <div class="slide slide-12">
+    </div>
+
+    <div class="slide slide-13">
+  <button class="download" id="downloadBtn">Download Makalah</button>
+</div>
+
+  
+  <div class="navigation">
+    <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)"></button>
+    <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)"></button>
+  </div>
+
+  
+  <div class="slide-counter">
+    <span id="currentSlide">1</span> / <span id="totalSlides">13</span>
+  </div>
+
+ <div class="progress-bar" id="progressBar"></div>
+
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
