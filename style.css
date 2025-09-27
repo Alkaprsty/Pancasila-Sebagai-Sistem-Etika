@@ -660,10 +660,15 @@ p, ul, li {
   margin: 0 auto;
 }
 
-.slide-4 {
-  position: relative;
-  height: 100vh; 
-}
+
+  .slide-4 {
+    background-image: url("img/4.jpg") !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+  }
+
+
 
 .slide-4 h2 {
   position: absolute;
@@ -785,7 +790,7 @@ p, ul, li {
   .slide-7 h2 {
   position: absolute;
   top: 15%;
-  left: -8%;
+  left: 48%;
   transform: translate( -60%, 25%);
   max-width: 100%;
   text-align: left;
